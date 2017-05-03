@@ -62,7 +62,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<SmokeleafJoint>4</SmokeleafJoint>
+			<SmokeleafJoint>5</SmokeleafJoint>
 		</products>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
