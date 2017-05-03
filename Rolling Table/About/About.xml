@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Rolling Table</name>
+  <author>Dr Zhivago</author>
+  <url>none</url>
+  <targetVersion>0.16.1393</targetVersion>
+  <description>
+
+A table used to roll joints more effectively than a crafting spot on the ground.
+
+ </description>
+</ModMetaData>

@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<RecipeDefs>
+
+<RecipeDef>
+		<defName>SmokeleafJointRollingTable</defName>
+		<label>make smokeleaf joint</label>
+		<description>Smokeleaf leaves prepared in small rolls for smoking. The drug improves mood, but also increases appetite, reduces focus and slows movement. Smokeleaf use can produce a dependency. Can be produced without equipment, at a rolling table.</description>
+		<jobString>Making smokeleaf joint.</jobString>
+		<workAmount>360</workAmount>
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<effectWorking>Tailor</effectWorking>
+		<soundWorking>Recipe_Tailor</soundWorking>
+		<recipeUsers>
+		<li>TableRolling</li>
+	</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SmokeleafLeaves</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SmokeleafLeaves</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<SmokeleafJoint>1</SmokeleafJoint>
+		</products>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>SmokeleafJointRollingTable5</defName>
+		<label>make smokeleaf joint x5</label>
+		<description>Smokeleaf leaves prepared in small rolls for smoking. The drug improves mood, but also increases appetite, reduces focus and slows movement. Smokeleaf use can produce a dependency. Can be produced without equipment, at a rolling table.</description>
+		<jobString>Making smokeleaf joint.</jobString>
+		<workAmount>1800</workAmount>
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<effectWorking>Tailor</effectWorking>
+		<soundWorking>Recipe_Tailor</soundWorking>
+		<recipeUsers>
+		<li>TableRolling</li>
+	</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SmokeleafLeaves</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SmokeleafLeaves</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<SmokeleafJoint>4</SmokeleafJoint>
+		</products>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>SmokeleafJointRollingTable10</defName>
+		<label>make smokeleaf joint x10</label>
+		<description>Smokeleaf leaves prepared in small rolls for smoking. The drug improves mood, but also increases appetite, reduces focus and slows movement. Smokeleaf use can produce a dependency. Can be produced without equipment, at a rolling table.</description>
+		<jobString>Making smokeleaf joint.</jobString>
+		<workAmount>3600</workAmount>
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<effectWorking>Tailor</effectWorking>
+		<soundWorking>Recipe_Tailor</soundWorking>
+		<recipeUsers>
+		<li>TableRolling</li>
+	</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SmokeleafLeaves</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SmokeleafLeaves</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<SmokeleafJoint>10</SmokeleafJoint>
+		</products>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>
+  
+</RecipeDefs>
