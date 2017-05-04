@@ -2,9 +2,9 @@
 <ModMetaData>
   <name>Rolling Table</name>
   <author>Dr Zhivago</author>
-  <url>none</url>
+  <url>https://github.com/DrZhivago1/RollingTable/tree/v1.0</url>
   <targetVersion>0.16.1393</targetVersion>
   <description>
-A table used to roll joints more effectively than a crafting spot on the ground.
+A table used to roll joints more effectively than a crafting spot on the ground. Can make smokeleaf joints in x1, x5, or x10 quantity.
  </description>
 </ModMetaData>
