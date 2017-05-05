@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<WorkGivers>
+
+<!--Thanks Xen-->
+  <WorkGiverDef>
+    <defName>RollDoobiesDrZ</defName>
+    <label>Roll like Willie Nelson</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Crafting</workType>
+    <priorityInType>130</priorityInType>
+    <fixedBillGiverDefs>
+      <li>TableRolling</li>
+    </fixedBillGiverDefs>
+    <verb>assemble</verb>
+    <gerund>assembling</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+
+</WorkGivers>
