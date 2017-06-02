@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Patch>
 
-	<Operation Class="PatchOperationSequence">
+<Operation Class="PatchOperationSequence">
   <success>Always</success>
   <operations>
     <li Class="PatchOperationTest">
@@ -11,7 +11,7 @@
     <li Class="PatchOperationAdd">
       <xpath>/Defs/RecipeDef[defName = "CigarillosRollingTable"]</xpath>
       <value>
-        <costList />
+        <costList/>
       </value>
     </li>
   </operations>
