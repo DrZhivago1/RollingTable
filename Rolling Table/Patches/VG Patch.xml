@@ -10,9 +10,6 @@
     </li>
     <li Class="PatchOperationAdd">
       <xpath>/Defs/RecipeDef[defName = "CigarillosRollingTable"]</xpath>
-      <value>
-        <costList/>
-      </value>
     </li>
   </operations>
 </Operation>
