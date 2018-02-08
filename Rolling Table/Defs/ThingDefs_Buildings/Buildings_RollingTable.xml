@@ -2,10 +2,10 @@
 <Defs>
 
  <ThingDef ParentName="BenchBase">
-    <DefName>TableRolling</DefName>
+    <defName>TableRolling</defName>
     <label>rolling table</label>
-    <ThingClass>Building_WorkTable</ThingClass>
-    <Description>A table for rolling smokeleaf into joints.</Description>
+    <thingclass>Building_WorkTable</thingclass>
+    <description>A table for rolling smokeleaf into joints.</description>
     <graphicData>
       <texPath>Things/Building/Production/TableRolling</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
@@ -22,7 +22,7 @@
       <li>Woody</li>
     </stuffCategories>
     <costStuffCount>95</costStuffCount>
-    <AltitudeLayer>Building</AltitudeLayer>
+    <altitudeLayer>Building</altitudeLayer>
     <fillPercent>0.5</fillPercent>
     <useHitPoints>True</useHitPoints>
     <statBases>
@@ -30,9 +30,9 @@
       <MaxHitPoints>180</MaxHitPoints>
       <Flammability>1.0</Flammability>
     </statBases>
-    <Size>(3,1)</Size>
-    <DesignationCategory>Production</DesignationCategory>
-    <Passability>PassThroughOnly</Passability>
+    <size>(3,1)</size>
+    <designationCategory>Production</designationCategory>
+    <passability>PassThroughOnly</passability>
     <pathCost>60</pathCost>
     <hasInteractionCell>True</hasInteractionCell>
     <interactionCellOffset>(0,0,-1)</interactionCellOffset>
