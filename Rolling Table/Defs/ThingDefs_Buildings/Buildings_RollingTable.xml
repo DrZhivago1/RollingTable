@@ -4,7 +4,7 @@
  <ThingDef ParentName="BenchBase">
     <defName>TableRolling</defName>
     <label>rolling table</label>
-    <thingclass>Building_WorkTable</thingclass>
+    <thingClass>Building_WorkTable</thingClass>
     <description>A table for rolling smokeleaf into joints.</description>
     <graphicData>
       <texPath>Things/Building/Production/TableRolling</texPath>
