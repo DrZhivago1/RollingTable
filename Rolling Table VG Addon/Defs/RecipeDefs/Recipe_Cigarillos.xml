@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<RecipeDefs>
+<Defs>
 
 <RecipeDef>
 		<defName>CigarillosRollingTable</defName>
@@ -100,4 +100,4 @@
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
-</RecipeDefs>
+</Defs>
