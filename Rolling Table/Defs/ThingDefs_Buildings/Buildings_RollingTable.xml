@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ThingsDefs>
+<Defs>
 
  <ThingDef ParentName="BenchBase">
     <DefName>TableRolling</DefName>
@@ -55,4 +55,4 @@
     </placeWorkers>
   </ThingDef>
 
-</ThingsDefs>
+</Defs>
