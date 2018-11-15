@@ -7,6 +7,6 @@
         <li>VGP Garden Medicine</li>
     </suggests>
     <showCrossPromotions>true</showCrossPromotions>
-    <manifestUri>put here</manifestUri>
+    <manifestUri>https://github.com/DrZhivago1/RollingTable/blob/Rolling_Table/Rolling%20Table/About/Manifest.xml</manifestUri>
     <downloadUri>https://github.com/DrZhivago1/RollingTable/releases/latest</downloadUri>
 </Manifest>
