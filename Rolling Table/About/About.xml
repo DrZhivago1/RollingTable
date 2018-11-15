@@ -6,6 +6,7 @@
   <targetVersion>1.0.2059</targetVersion>
   <description>
 A table used to roll joints more effectively than a crafting spot on the ground. Can make smokeleaf joints in x1, x5, or x10 quantity.
+Compatible with VGP Medicine.
 
 Credits:
 Xen- for helping me realize I was missing defs
