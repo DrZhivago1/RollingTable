@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Manifest>
+    <identifier>ModManager</identifier>
+    <version>0.0.1.0</version>
+    <suggests>
+        <li>VGP Garden Medicine</li>
+    </suggests>
+    <showCrossPromotions>true</showCrossPromotions>
+    <manifestUri>https://github.com/DrZhivago1/RollingTable/blob/Rolling_Table/Rolling%20Table/About/Manifest.xml</manifestUri>
+    <downloadUri>https://github.com/DrZhivago1/RollingTable/releases/latest</downloadUri>
+</Manifest>

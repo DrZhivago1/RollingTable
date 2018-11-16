@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Rolling Table</name>
+  <author>Dr Zhivago</author>
+  <url>https://github.com/DrZhivago1/RollingTable/releases</url>
+  <targetVersion>1.0.2059</targetVersion>
+  <description>
+A table used to roll joints more effectively than a crafting spot on the ground. Can make smokeleaf joints in x1, x5, or x10 quantity.
+Compatible with VGP Medicine.
+
+Credits:
+Xen- for helping me realize I was missing defs
+ilawz- for texture modifications
+Lanilor- for helping me learn xpath patching on the Discord
+ </description>
+</ModMetaData>
