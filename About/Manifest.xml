@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Manifest>
-  <version>1.0.3</version>
+  <version>1.0.4</version>
+  <suggests>
+      <li>1568744597</li>
+  </suggests>
+  <showCrossPromotions>true</showCrossPromotions>
   <manifestUri>https://raw.githubusercontent.com/DrZhivago1/RollingTable/master/About/Manifest.xml</manifestUri>
   <downloadUri>https://github.com/DrZhivago1/RollingTable/releases/latest</downloadUri>
 </Manifest>
