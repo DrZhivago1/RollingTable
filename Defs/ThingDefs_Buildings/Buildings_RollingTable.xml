@@ -56,9 +56,6 @@
     </placeWorkers>
     <minifiedDef>MinifiedThing</minifiedDef>
     <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-    <thingCategories>
-      <li>BuildingsProduction</li>
-    </thingCategories>
   </ThingDef>
 
 </Defs>
