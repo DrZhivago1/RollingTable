@@ -1,8 +1,8 @@
 # RollingTable
 Smokeleaf Rolling Table
 
-VGP Garden Medicine compatible, can be used to roll cigarillos.
-RimCuisine compatible, can be used to roll tobacco products.
+- VGP Garden Medicine compatible, can be used to roll cigarillos.
+- RimCuisine compatible, can be used to roll tobacco products.
 
 
 - [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=935099161)
