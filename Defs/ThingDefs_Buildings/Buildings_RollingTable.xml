@@ -29,7 +29,6 @@
       <WorkToBuild>1000</WorkToBuild>
       <MaxHitPoints>180</MaxHitPoints>
       <Flammability>1.0</Flammability>
-      <Mass>20</Mass>
     </statBases>
     <size>(3,1)</size>
     <designationCategory>Production</designationCategory>
@@ -54,7 +53,6 @@
     <placeWorkers>
       <li>PlaceWorker_ShowFacilitiesConnections</li>
     </placeWorkers>
-    <minifiedDef>MinifiedThing</minifiedDef>
     <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
   </ThingDef>
 
