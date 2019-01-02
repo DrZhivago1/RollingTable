@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
- <ThingDef ParentName="BenchBase">
+  <ThingDef ParentName="BenchBase">
     <defName>TableRolling</defName>
     <label>rolling table</label>
     <description>A table for rolling smokeleaf into joints.</description>
@@ -42,7 +42,7 @@
     </inspectorTabs>
     <building>
       <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
-		</building>
+    </building>
     <comps>
       <li Class="CompProperties_AffectedByFacilities">
         <linkableFacilities>
