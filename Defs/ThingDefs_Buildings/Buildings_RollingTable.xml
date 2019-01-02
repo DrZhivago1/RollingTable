@@ -53,7 +53,6 @@
     <placeWorkers>
       <li>PlaceWorker_ShowFacilitiesConnections</li>
     </placeWorkers>
-    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
   </ThingDef>
 
 </Defs>
