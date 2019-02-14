@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-<!-- Abstracts -->	
-	
+	<!-- Abstracts -->
+
 	<RecipeDef Name="RollAtTableBase" Abstract="True">
 		<jobString>Processing organics into smokes.</jobString>
 		<workSpeedStat>TailoringSpeed</workSpeedStat>
@@ -15,16 +15,15 @@
 		</recipeUsers>
 	</RecipeDef>
 
+	<!--Rolling_Ganja-->
 
-<!--Rolling_Ganja-->		
-	
 	<RecipeDef ParentName="RollAtTableBase">
 		<defName>SmokeleafJointRollingTable</defName>
 		<label>make smokeleaf joint</label>
 		<description>Smokeleaf leaves prepared in small rolls for smoking. The drug improves mood, but also increases appetite, reduces focus and slows movement. Smokeleaf use can produce a dependency. Can be produced without equipment, at a rolling table.</description>
 		<allowMixingIngredients>false</allowMixingIngredients>
 		<workAmount>360</workAmount>
-    <ingredients>
+		<ingredients>
 			<li>
 				<filter>
 					<thingDefs>
@@ -43,14 +42,14 @@
 			<SmokeleafJoint>1</SmokeleafJoint>
 		</products>
 	</RecipeDef>
-	
+
 	<RecipeDef ParentName="RollAtTableBase">
 		<defName>SmokeleafJointRollingTable5</defName>
 		<label>make smokeleaf joint x5</label>
 		<description>Smokeleaf leaves prepared in small rolls for smoking. The drug improves mood, but also increases appetite, reduces focus and slows movement. Smokeleaf use can produce a dependency. Can be produced without equipment, at a rolling table.</description>
 		<allowMixingIngredients>false</allowMixingIngredients>
 		<workAmount>1800</workAmount>
-    <ingredients>
+		<ingredients>
 			<li>
 				<filter>
 					<thingDefs>
@@ -69,14 +68,14 @@
 			<SmokeleafJoint>5</SmokeleafJoint>
 		</products>
 	</RecipeDef>
-	
+
 	<RecipeDef ParentName="RollAtTableBase">
 		<defName>SmokeleafJointRollingTable10</defName>
 		<label>make smokeleaf joint x10</label>
 		<description>Smokeleaf leaves prepared in small rolls for smoking. The drug improves mood, but also increases appetite, reduces focus and slows movement. Smokeleaf use can produce a dependency. Can be produced without equipment, at a rolling table.</description>
 		<allowMixingIngredients>false</allowMixingIngredients>
 		<workAmount>3600</workAmount>
-    <ingredients>
+		<ingredients>
 			<li>
 				<filter>
 					<thingDefs>
@@ -95,5 +94,5 @@
 			<SmokeleafJoint>10</SmokeleafJoint>
 		</products>
 	</RecipeDef>
-	
+
 </Defs>

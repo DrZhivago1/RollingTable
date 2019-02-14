@@ -3,14 +3,19 @@
   <name>Rolling Table</name>
   <author>Dr_Zhivago</author>
   <url>https://ludeon.com/forums/index.php?topic=47165.0</url>
-  <targetVersion>1.0.2096</targetVersion>
+  <supportedVersions>
+    <li>1.0</li>
+  </supportedVersions>
   <description>
   A table used to roll joints more effectively than a crafting spot on the ground. Can make smokeleaf joints in x1, x5, or x10 quantity.
-  Compatible with VGP Medicine, to roll cigarillos.
+  
+  - VGP Garden Medicine compatible, can be used to roll cigarillos.
+  - RimCuisine compatible, can be used to roll tobacco products.
+  - Smokeleaf Industry compatible, can be used to make various products.
 
   Credits:
   Xen- for helping me realize I was missing defs
   ilawz- for texture modifications
   Lanilor- for helping me learn xpath patching on the Discord
- </description>
+  </description>
 </ModMetaData>
