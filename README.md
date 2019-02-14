@@ -4,6 +4,7 @@ A table for rolling joints.
 
 - VGP Garden Medicine compatible, can be used to roll cigarillos.
 - RimCuisine compatible, can be used to roll tobacco products.
+- Smokeleaf Industry compatible, can be used to make various products.
 
 
 _[Link to Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=935099161)_
