@@ -1,9 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Patch>
-
-	<!-- VGP Medicine Cigarillo Recipes -->
-  
-<Operation Class="PatchOperationFindMod">
+  <!-- VGP Medicine Cigarillo Recipes -->
+  <Operation Class="PatchOperationFindMod">
     <mods>
       <li>VGP Garden Medicine</li>
     </mods>
@@ -11,90 +9,90 @@
       <success>Always</success>
       <operations>
         <li Class="PatchOperationAdd">
-        <xpath>/Defs</xpath>
-        <value>
-          <RecipeDef ParentName="RollAtTableBase">
-            <defName>CigarillosRollingTable</defName>
-            <label>make cigarillos</label>
-            <description>Raw tobacco prepared into cigarillos. Use can produce a dependency and negative health consequences. Can be produced without equipment, at a rolling table.</description>
-            <allowMixingIngredients>false</allowMixingIngredients>
-            <workAmount>200</workAmount>
-            <ingredients>
-              <li>
-                <filter>
-                  <thingDefs>
-                    <li>RawTobacco</li>
-                  </thingDefs>
-                </filter>
-                <count>5</count>
-              </li>
-            </ingredients>
-            <fixedIngredientFilter>
-              <thingDefs>
-                <li>RawTobacco</li>
-              </thingDefs>
-            </fixedIngredientFilter>
-            <products>
-              <Cigarillos>1</Cigarillos>
-            </products>
-          </RecipeDef>
-          
-          <RecipeDef ParentName="RollAtTableBase">
-            <defName>CigarillosRollingTable5</defName>
-            <label>make cigarillos x5</label>
-            <description>Raw tobacco prepared into cigarillos. Use can produce a dependency and negative health consequences. Can be produced without equipment, at a rolling table.</description>
-            <allowMixingIngredients>false</allowMixingIngredients>
-            <workAmount>1000</workAmount>
-            <ingredients>
-              <li>
-                <filter>
-                  <thingDefs>
-                    <li>RawTobacco</li>
-                  </thingDefs>
-                </filter>
-                <count>25</count>
-              </li>
-            </ingredients>
-            <fixedIngredientFilter>
-              <thingDefs>
-                <li>RawTobacco</li>
-              </thingDefs>
-            </fixedIngredientFilter>
-            <products>
-              <Cigarillos>5</Cigarillos>
-            </products>
-          </RecipeDef>
-          
-          <RecipeDef ParentName="RollAtTableBase">
-            <defName>CigarillosRollingTable10</defName>
-            <label>make cigarillos x10</label>
-            <description>Raw tobacco prepared into cigarillos. Use can produce a dependency and negative health consequences. Can be produced without equipment, at a rolling table.</description>
-            <allowMixingIngredients>false</allowMixingIngredients>
-            <workAmount>2000</workAmount>
-            <ingredients>
-              <li>
-                <filter>
-                  <thingDefs>
-                    <li>RawTobacco</li>
-                  </thingDefs>
-                </filter>
-                <count>50</count>
-              </li>
-            </ingredients>
-            <fixedIngredientFilter>
-              <thingDefs>
-                <li>RawTobacco</li>
-              </thingDefs>
-            </fixedIngredientFilter>
-            <products>
-              <Cigarillos>10</Cigarillos>
-            </products>
-          </RecipeDef>
-          
-        </value>
+          <xpath>/Defs</xpath>
+          <value>
+            <RecipeDef ParentName="RollAtTableBase">
+              <defName>CigarillosRollingTable</defName>
+              <label>make cigarillos</label>
+              <description>Raw tobacco prepared into cigarillos. Use can produce a dependency and negative health consequences. Can be produced without equipment, at a rolling table.</description>
+              <allowMixingIngredients>false</allowMixingIngredients>
+              <workAmount>200</workAmount>
+              <ingredients>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>RawTobacco</li>
+                    </thingDefs>
+                  </filter>
+                  <count>5</count>
+                </li>
+              </ingredients>
+              <fixedIngredientFilter>
+                <thingDefs>
+                  <li>RawTobacco</li>
+                </thingDefs>
+              </fixedIngredientFilter>
+              <products>
+                <Cigarillos>1</Cigarillos>
+              </products>
+            </RecipeDef>
+
+            <RecipeDef ParentName="RollAtTableBase">
+              <defName>CigarillosRollingTable5</defName>
+              <label>make cigarillos x5</label>
+              <description>Raw tobacco prepared into cigarillos. Use can produce a dependency and negative health consequences. Can be produced without equipment, at a rolling table.</description>
+              <allowMixingIngredients>false</allowMixingIngredients>
+              <workAmount>1000</workAmount>
+              <ingredients>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>RawTobacco</li>
+                    </thingDefs>
+                  </filter>
+                  <count>25</count>
+                </li>
+              </ingredients>
+              <fixedIngredientFilter>
+                <thingDefs>
+                  <li>RawTobacco</li>
+                </thingDefs>
+              </fixedIngredientFilter>
+              <products>
+                <Cigarillos>5</Cigarillos>
+              </products>
+            </RecipeDef>
+
+            <RecipeDef ParentName="RollAtTableBase">
+              <defName>CigarillosRollingTable10</defName>
+              <label>make cigarillos x10</label>
+              <description>Raw tobacco prepared into cigarillos. Use can produce a dependency and negative health consequences. Can be produced without equipment, at a rolling table.</description>
+              <allowMixingIngredients>false</allowMixingIngredients>
+              <workAmount>2000</workAmount>
+              <ingredients>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>RawTobacco</li>
+                    </thingDefs>
+                  </filter>
+                  <count>50</count>
+                </li>
+              </ingredients>
+              <fixedIngredientFilter>
+                <thingDefs>
+                  <li>RawTobacco</li>
+                </thingDefs>
+              </fixedIngredientFilter>
+              <products>
+                <Cigarillos>10</Cigarillos>
+              </products>
+            </RecipeDef>
+
+          </value>
         </li>
       </operations>
     </match>
   </Operation>
-	
+
 </Patch>
