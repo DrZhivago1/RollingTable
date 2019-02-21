@@ -49,6 +49,12 @@
                   <li>TableRolling</li>
                </value>
             </li>
+            <li Class="PatchOperationAdd">
+               <xpath>Defs/ThingDef[defName="TableRolling"]/comps/li/linkableFacilities</xpath>
+               <value>
+                  <li>TrimmingTools</li>
+               </value>
+            </li>
          </operations>
       </match>
    </Operation>
