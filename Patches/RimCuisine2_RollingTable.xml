@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+  <!--Add Cigars and Cigarettes to Rolling Table if RimCuisine 2 is installed-->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>[1.0] RimCuisine 2: Smokes and Shrooms Expansion</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/RecipeDef[defName="RC2_MakeCigarettes" or defName="RC2_MakeCigars"]/recipeUsers</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>Defs/RecipeDef[defName="RC2_MakeCigarettes" or defName="RC2_MakeCigars"]/recipeUsers</xpath>
+            <value>
+              <li>TableRolling</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/RecipeDef[defName="RC2_MakeCigarettes" or defName="RC2_MakeCigars"]</xpath>
+            <value>
+              <recipeUsers>
+                <li>DrugLab</li>
+                <li>TableRolling</li>
+              </recipeUsers>
+            </value>
+          </nomatch>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
