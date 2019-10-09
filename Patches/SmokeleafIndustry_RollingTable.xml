@@ -5,6 +5,7 @@
       <mods>
          <li>Smokeleaf Industry</li>
          <li>Smokeleaf Industry - Lite</li>
+         <li>Smokeleaf Industry Reborn</li>
       </mods>
       <match Class="PatchOperationSequence">
          <success>Always</success>
