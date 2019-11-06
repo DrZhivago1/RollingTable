@@ -6,7 +6,7 @@ A table for rolling joints.
 - [RimCuisine](https://steamcommunity.com/sharedfiles/filedetails/?id=1543723640) compatible, can be used to roll tobacco products.
 - [RimCuisine 2](https://steamcommunity.com/sharedfiles/filedetails/?id=1833593222) compatible, can be used to roll tobacco products.
 - [Smokeleaf Industry](https://ludeon.com/forums/index.php?topic=35747.0) compatible, can be used to make various products.
-- [Smokeleaf Industry Reborn](https://steamcommunity.com/sharedfiles/filedetails/?id=1876387936) compatible, can be used to make various products.
+- [Smokeleaf Industry Reborn](https://steamcommunity.com/sharedfiles/filedetails/?id=1876387936) compatible, can be used to make various products.  
 Save-friendly.
 
 _[Link to Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=935099161)_
