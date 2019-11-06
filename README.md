@@ -12,5 +12,3 @@ A table for rolling joints.
 _[Link to Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=935099161)_
 
 _[Link to Ludeon](https://ludeon.com/forums/index.php?topic=47165.msg447418#msg447418)_
-
-## [License](https://creativecommons.org/licenses/by-nc-sa/4.0/)
