@@ -12,13 +12,13 @@
          <operations>
             <!--========== Rolling Table Recipe Changes ==========-->
             <li Class="PatchOperationAdd">
-               <xpath>Defs/RecipeDef[@Name="RollAtTableBase"]</xpath>
+               <xpath>/Defs/RecipeDef[@Name="RollAtTableBase"]</xpath>
                <value>
                   <researchPrerequisite>SmokeleafCultivation</researchPrerequisite>
                </value>
             </li>
             <li Class="PatchOperationReplace">
-               <xpath>Defs/RecipeDef[defName="SmokeleafJointRollingTable" or defName="SmokeleafJointRollingTable5"]/ingredients/li/filter/thingDefs</xpath>
+               <xpath>/Defs/RecipeDef[defName="SmokeleafJointRollingTable" or defName="SmokeleafJointRollingTable5"]/ingredients/li/filter/thingDefs</xpath>
                <value>
                   <thingDefs>
                      <li>SmokeleafBuds</li>
@@ -26,7 +26,7 @@
                </value>
             </li>
             <li Class="PatchOperationReplace">
-               <xpath>Defs/RecipeDef[defName="SmokeleafJointRollingTable" or defName="SmokeleafJointRollingTable5"]/fixedIngredientFilter/thingDefs</xpath>
+               <xpath>/Defs/RecipeDef[defName="SmokeleafJointRollingTable" or defName="SmokeleafJointRollingTable5"]/fixedIngredientFilter/thingDefs</xpath>
                <value>
                   <thingDefs>
                      <li>SmokeleafBuds</li>
@@ -34,24 +34,24 @@
                </value>
             </li>
             <li Class="PatchOperationRemove">
-               <xpath>Defs/RecipeDef[defName="SmokeleafJointRollingTable10"]</xpath>
+               <xpath>/Defs/RecipeDef[defName="SmokeleafJointRollingTable10"]</xpath>
             </li>
             <!--========== Rolling Table Recipe Additions ==========-->
             <li Class="PatchOperationAdd">
-               <xpath>Defs/RecipeDef[defName="TrimSmokeleafDrugLab" or defName="BulkTrimSmokeleafDrugLab"]/recipeUsers</xpath>
+               <xpath>/Defs/RecipeDef[defName="TrimSmokeleafDrugLab" or defName="BulkTrimSmokeleafDrugLab"]/recipeUsers</xpath>
                <value>
                   <li>TableRolling</li>
                </value>
             </li>
             <!--========== Smokeleaf ThingDef Additions ==========-->
             <li Class="PatchOperationAdd">
-               <xpath>Defs/ThingDef[defName="CrudeSmokeleafJoint" or defName="SmokeleafCannagar" or defName="SmokeleafHash" or defName="SmokeleafDistillate"]/recipeMaker/recipeUsers</xpath>
+               <xpath>/Defs/ThingDef[defName="CrudeSmokeleafJoint" or defName="SmokeleafCannagar" or defName="SmokeleafHash" or defName="SmokeleafDistillate"]/recipeMaker/recipeUsers</xpath>
                <value>
                   <li>TableRolling</li>
                </value>
             </li>
             <li Class="PatchOperationAdd">
-               <xpath>Defs/ThingDef[defName="TableRolling"]/comps/li/linkableFacilities</xpath>
+               <xpath>/Defs/ThingDef[defName="TableRolling"]/comps/li/linkableFacilities</xpath>
                <value>
                   <li>TrimmingTools</li>
                </value>

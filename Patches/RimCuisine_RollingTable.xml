@@ -9,7 +9,7 @@
       <success>Always</success>
       <operations>
         <li Class="PatchOperationAdd">
-          <xpath>Defs/RecipeDef[defName="MakeCigarettes" or defName="MakeCigars"]</xpath>
+          <xpath>/Defs/RecipeDef[defName="MakeCigarettes" or defName="MakeCigars"]</xpath>
           <value>
             <recipeUsers>
               <li>DrugLab</li>
