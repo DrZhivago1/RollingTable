@@ -2,10 +2,12 @@
   
   <name>Rolling Table</name>
   <author>Dr_Zhivago</author>
-  <url>https://ludeon.com/forums/index.php?topic=47165.0</url>
+  <url>https://github.com/DrZhivago1/RollingTable</url>
   <supportedVersions>
     <li>1.0</li>
+		<li>1.1</li>
   </supportedVersions>
+	<packageId>drzhivago.rollingtable</packageId>
   <description>
   A table used to roll joints more effectively than a crafting spot on the ground. Can make smokeleaf joints in x1, x5, or x10 quantity.
  
