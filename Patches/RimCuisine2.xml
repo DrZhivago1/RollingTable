@@ -4,6 +4,7 @@
   <Operation Class="PatchOperationFindMod">
     <mods>
       <li>[1.0] RimCuisine 2: Smokes and Shrooms Expansion</li>
+      <li>RimCuisine 2: Smokes and Shrooms Expansion (Continued)</li>
     </mods>
     <match Class="PatchOperationSequence">
       <success>Always</success>
